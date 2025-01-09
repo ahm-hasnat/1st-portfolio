@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.all {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF8F3;
+    background-image: url("Assets/images/developer.png") , url("Assets/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:top left , right bottom;
+    background-size: 100px 667px , 625px 445px;}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Open Sans", serif;
+    margin:0 172px; 
+}
+.name{
+    font-size: 35px;
+    font-weight: extra-bold;
+    color: rgb(6, 6, 6);
+    margin-left: ;
+
+}
+ .name span{
+    color: #FD6E0A;
+}
+
+.navllist{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+   
+}
+.ancor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 145px;
+    height: 20px;
+    
+    
+}
+.ancor a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    color: #474747;
+   
+}
+.ancor a:hover{
+    background-color: black;
+    color: white;
+}
+
+.button{
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 115px;
+    height: 48px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 25px 0 175px;
+}
+.pic{
+    width: 445px;
+    height:600px;
+   
+}
+.hiam{
+    font-size: 35px;
+     font-weight: 600;
+    color: #474747;
+    height: 52px;
+    width: 132px;
+    
+}
+.hasnat{
+    font-size: 65px;
+    font-weight: bold;
+    color: #181818;
+    height:100px;
+    width: 375px;
+
+}
+.about{
+    font-size: 14px;
+    font-weight: normal;
+    color: #757575;
+    height: 51px;
+    width: 440px;
+    margin-bottom: 50px;
+    line-height: 22px;
+}
+.buttonn{
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 150px;
+    height: 55px;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.button:hover,.buttonn:hover{
+    background-color: rgba(0, 0, 0, 0.592);
+    color: white;
+    cursor: pointer;
+}
+.content{
+    /* text-align: center; */
+}
