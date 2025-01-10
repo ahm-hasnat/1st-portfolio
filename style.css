@@ -294,26 +294,22 @@
    .footerr{
     width: 402px;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 30px;
    }
    .form{
      display: flex;
-    justify-content: center;
-    align-items: center;
+     justify-content:space-between;
+    align-items:flex-start;
     flex-direction:column;
     gap: 20px;
-    
-     
    }
    
    .letsmessage{
-    margin: 0 auto;
+    
     margin-bottom: 20px;
     font-size: 25px;
     font-weight: bold;
-    padding: 30px;
-
-
+    
    }
    .footer .formin{
     width: 355px;
